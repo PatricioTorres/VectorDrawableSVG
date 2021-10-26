@@ -7,14 +7,11 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity"
         >
-    <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:srcCompat="@drawable/ic_name"
-            android:id="@+id/imageName"
-            tools:layout_editor_absoluteX="105dp"
-            tools:ignore="MissingConstraints" app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
 
 
+        <ImageView
+                android:layout_width="936dp"
+                android:layout_height="1062dp" app:srcCompat="@drawable/name" android:id="@+id/imageView"
+                tools:layout_editor_absoluteY="120dp" tools:layout_editor_absoluteX="79dp"
+                tools:ignore="MissingConstraints"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
